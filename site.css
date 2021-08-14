@@ -1,0 +1,34 @@
+body
+{
+    color:#FFEDF3;
+    background-color: #020709;
+    font-family: Consolas, monospace;
+}
+.main-body
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.top-box
+{
+    position: relative;
+    text-align: center;
+    margin-top: 2%;
+    border-style: double;
+    
+}
+.top-nav
+{
+    margin-top:2vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.profile-img
+{
+    margin-top: 5vh;
+    max-width: 15em;
+    max-height: 15em;
+}
