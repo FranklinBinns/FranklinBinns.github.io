@@ -1,1 +1,1 @@
-# FranklinBinns.github.io UPDATE UPDATE
+# Personal website using github pages
