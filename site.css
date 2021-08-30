@@ -104,3 +104,9 @@ body
     padding-top: 1%;
     padding-bottom: 1%;
 }
+
+
+#middle-elements img
+{
+    border: 1px solid black;
+}
