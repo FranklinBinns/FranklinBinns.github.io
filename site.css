@@ -99,10 +99,7 @@ body
 
 #middle-elements button
 {
-    padding-left: 1%;
-    padding-right: 1%;
-    padding-top: 1%;
-    padding-bottom: 1%;
+    padding: 1% 1% 1% 1%;
 }
 
 
@@ -110,3 +107,23 @@ body
 {
     border: 1px solid black;
 }
+@media screen and (max-width: 700px) {
+    #middle-elements
+    {
+        width: 70%;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    #middle-elements button
+    {
+        padding: 2% 2% 2% 2%;
+    }
+}
+@media screen and (max-width: 359px) {
+
+    #middle-elements img
+    {
+        display: none;
+    }
+
+    }
