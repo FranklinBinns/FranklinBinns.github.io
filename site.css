@@ -1,34 +1,106 @@
+html
+{
+    height: 100%;
+}
 body
 {
+    height: inherit;
     color:#FFEDF3;
+    background-color: rgb(230, 227, 224);
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 0;
+    font-family: 'Raleway', monospace;
+}
+
+.header
+{
     background-color: #020709;
-    font-family: Consolas, monospace;
 }
 .main-body
 {
+    
     display: flex;
     flex-direction: column;
-    margin-left: 30%;
-    margin-right: 30%;
+    
 }
-.top-box
+.container
+{
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    background-color:white;
+    
+}
+.header
 {
     position: relative;
     text-align: center;
-    margin-top: 2%;
     border-style: double;
+    font-size: large;
     
 }
-.top-nav
+.desc
 {
-    margin-top:2vh;
+    font-size: larger;
+}
+#footer
+{
+    color:black;
+    border: 0.25px solid black;
+    flex: 0;
+}
+
+
+#nav-bar
+{
+    flex: 0;
+    border: 1px solid white;
+    background-color: black;
+    color:#FFEDF3;
+    list-style: none;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
-.profile-img
+
+#nav-bar a
 {
-    margin-top: 5vh;
-    max-width: 15em;
-    max-height: 15em;
+    flex: 1;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid white;
+    color:rgb(226, 205, 205);
+}
+#nav-bar a:hover
+{
+    color:gray;
+}
+
+#middle-container
+{
+    flex:1;
+    border: 0.25px solid black;
+}
+#middle-elements
+{
+    text-align: center;
+    color: black;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 2%;
+    width: 40%;
+}
+#bio-text
+{
+    width: 100%;
+    text-align: center;
+}
+
+#middle-elements button
+{
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
